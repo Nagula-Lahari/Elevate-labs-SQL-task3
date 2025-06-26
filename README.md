@@ -1,20 +1,20 @@
- Writing Basic SELECT Queries
-This repository contains  The objective of this task is to demonstrate the ability to extract data from one or more tables using various SELECT query clauses.
+**SQL Developer Internship - Task 3: Writing Basic SELECT Queries**
+This repository contains the SQL script for Task 3 of the SQL Developer Internship. The objective of this task is to demonstrate the ability to extract data from one or more tables using various SELECT query clauses.
 
-Table of Contents
+**Table of Contents**
 Project Objective
 
 Tools Used
-
-Deliverables
+**
+Deliverables**
 
 SQL Script Overview
 
 Setup and Execution
 
-Interview Questions & Answers
+**Interview Questions & Answers**
 
-Project Objective
+**Project Objective**
 The main objective of this task is to gain a clear understanding of how to retrieve data from a relational database. This includes:
 
 Selecting all columns (SELECT *) or specific columns.
@@ -25,19 +25,18 @@ Sorting results using ORDER BY (ascending and descending).
 
 Limiting the number of rows returned using LIMIT.
 
-Tools Used
-Database Management System: MySQL (or SQLite, PostgreSQL, etc.)
+**Tools Used**
+Database Management System: MySQL 
 
-SQL Client: MySQL Workbench / DB Browser for SQLite (or any preferred SQL client)
+SQL Client: MySQL Workbench / DB Browser for SQLite
 
-Deliverables
+**Deliverables**
 task3_select_queries.sql: An SQL script file containing all the CREATE TABLE, INSERT, and SELECT query examples.
 
 README.md: This file, explaining the project and answering interview questions.
 
-(Optional) Screenshots folder: A folder (e.g., screenshots/) containing images of the query execution and results for visual confirmation.
 
-SQL Script Overview
+**SQL Script Overview**
 The task3_select_queries.sql file contains the following sections:
 
 Table Creation: CREATE TABLE statements for two sample tables: Employees and Products, with predefined schemas.
@@ -74,7 +73,7 @@ USE Task3;
 
 Execute the Script: Open the task3_select_queries.sql file in your SQL client and execute the entire script. It will create the tables, insert the sample data, and then run each SELECT query, displaying its results.
 
-Interview Questions & Answers
+**Interview Questions & Answers**
 Key Concepts: Filtering, Projection
 What does SELECT * do?
 SELECT * is a SQL statement used to retrieve all columns from the specified table(s) or view(s). The asterisk (*) acts as a wildcard, representing every column in the table in the order they were defined.
